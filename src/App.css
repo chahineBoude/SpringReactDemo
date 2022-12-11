@@ -1,0 +1,102 @@
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.suitImg {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+}
+
+.suitImg:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.univImg {
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+  height: 50px;
+}
+
+.universe:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 36px;
+}
+
+.homeLink {
+  display: inline;
+  float: left;
+  align-items: center;
+  align-self: center;
+  text-decoration: none;
+}
+
+.universe {
+  text-align: center;
+  color: rgb(55, 52, 214);
+  font-weight: bold;
+}
+
+.MsImg {
+  border: 3px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 600px;
+}
+
+.cir:hover {
+  color: rgb(0, 116, 248);
+}
+
+.glo:hover {
+  color: rgb(0, 116, 248);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
